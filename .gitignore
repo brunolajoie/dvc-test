@@ -3,3 +3,4 @@
 /model.h5
 .python-version
 .DS_Store
+.env

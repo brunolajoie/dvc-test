@@ -1,5 +1,9 @@
 Tuturial following the [blog post](https://towardsdatascience.com/data-and-machine-learning-model-versioning-with-dvc-34fdadd06b15)
 
+## 0) Setup
+
+Run dvc remote add -d remote gdrive://${GDRIVE_FOLDER} with your personal folder to store data
+
 We have the following git history
 ```bash
 * b9125e6 - data_and_model_v2 (4 minutes ago) Bruno Lajoie  (HEAD, tag: data_model_v2)
