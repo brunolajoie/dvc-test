@@ -1,0 +1,2 @@
+train:
+  lstm_out: 2
