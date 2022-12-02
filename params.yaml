@@ -1,4 +1,2 @@
 train:
-  lstm_out: 16
-
-
+  lstm_out: 2
