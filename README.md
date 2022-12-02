@@ -26,8 +26,16 @@ dvc pull
 ```bash
 git checkout data_model_v1
 dvc pull
+dvc repro train-and-evaluate
 
 # OR
 git checkout data_model_v2
 dvc pull
+```
+Then run the pipeliene and show metrics
+
+```bash
+dvc repro train-and-evaluate
+dvc metrics show
+dvc metrics diff data_model_v2 data_model_v1
 ```
