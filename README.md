@@ -2,7 +2,7 @@ Tuturial following the [blog post](https://towardsdatascience.com/data-and-machi
 
 ## 0) Setup
 
-Run dvc remote add -d remote gdrive://${GDRIVE_FOLDER} with your personal folder to store data
+Run `dvc remote add -d remote gdrive://${GDRIVE_FOLDER}` with your personal folder to store data
 
 We have the following git history
 ```bash
